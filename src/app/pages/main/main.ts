@@ -6,8 +6,7 @@ import { Sidebar } from "../../shared/sidebar/sidebar";
 @Component({
   selector: 'app-main',
   imports: [About, Contact, Navbar, Sidebar],
-  templateUrl: './main.html',
-  styleUrl: './main.css'
+  templateUrl: './main.html'
 })
 export class Main {
 
